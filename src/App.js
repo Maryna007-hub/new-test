@@ -4,7 +4,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
- 
+ <div className="containr">
     <h1>Lisbon💛 </h1>
     <button className="btn btn-primary">Hellonp</button>
        <footer>
@@ -17,7 +17,7 @@ export default function App() {
         </a>
         </footer>
         </div>
-   
+   </div>
   );
  }
 
