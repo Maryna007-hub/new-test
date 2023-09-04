@@ -25,10 +25,10 @@ line-height: 29px;
     line-height: 19px;
     list-style: none;
     }
-    .Weather img {
+    .Weather canvas {
         height: 64px;
         width: 64px;
-        margin-bottom: 22px;
+    margin-top: 10px;
  
     }
     .Weather .temperature {
@@ -36,6 +36,8 @@ line-height: 29px;
         color: rgb(33, 33, 33);
         font-size: 54px;
       margin-left: 5px;
+      margin-bottom: 20px;
+    
      
         }
         .Weather .unit {
