@@ -1,7 +1,7 @@
 
-import './App.css';
+import React from "react";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
   Weather app
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+
