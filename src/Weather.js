@@ -7,12 +7,13 @@ export default function Weather() {
         <form>
             <div className="row">
                 <div className="col-9">
-            <input type="seatch" placeholder="Enter a city" 
-            className="form-control"/>
+            <input type="search" placeholder="Enter a city" 
+            className="form-control"
+            autoFocus="on"/>
             </div>
             <div className="col-3">
             <input type="submit" value="Searth" 
-            className="btn btn-primary"/>
+            className="btn btn-primary w-100"/>
              </div>
             </div>
         </form>
@@ -22,15 +23,23 @@ export default function Weather() {
         <li>Clear</li>
      </ul>
      <div className="row">
+         <div className="col-6">
+            
+                 <img src="https://cdn-icons-png.flaticon.com/128/4814/4814268.png"
+                  alt="Clear" className="float-left"/> 
+              
+                    <span className="temperature">18</span>
+                     <span className="unit">C|F</span>
+                
+             </div>
+   
+       
        <div className="col-6">
-        <img src="https://cdn-icons-png.flaticon.com/128/4814/4814268.png"
-         alt="Clear"/> 18C|F 
-       </div>
-       <div className="col-6">
-       <li>Humidity: 37%</li>
+          <li>Humidity: 37%</li>
         <li>Wind: 23 km/h</li>
-       </div>
+          </div>
      </div>
-    </div>
+    
+     </div>
     );
 }
